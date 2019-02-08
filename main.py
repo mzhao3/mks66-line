@@ -45,7 +45,7 @@ while (i < 100) :
 
 
 #uncomment this later
-#display(screen)
+display(screen)
 save_extension(screen, 'img.png')
 
 
