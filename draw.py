@@ -33,7 +33,7 @@ def draw_line( x0, y0, x1, y1, screen, color ):
         #print("the difference in y:" + str(A))
         #print("the difference in x:" + str(B))
         if (A < B):
-            print("in octant 7")
+            #print("in octant 7")
             D = A + 2 * B
             while (y >= y1):
                 #print(y)
@@ -47,7 +47,7 @@ def draw_line( x0, y0, x1, y1, screen, color ):
 
         #fix
         elif ((-1 * A) <= (-1 * B)):
-            print("in octant 8")
+            #print("in octant 8")
             D = -2*A + B
             while (x <= x1):
                 plot(screen, color, x, y)
