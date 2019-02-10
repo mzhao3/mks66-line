@@ -52,7 +52,7 @@ while (i < 100) :
 
 display(screen)
 save_extension(screen, 'img.png')
-
+print("img.png")
 
 def draw_square(x0, y0, x1, y1, len, color):
     A = y1 - y0
